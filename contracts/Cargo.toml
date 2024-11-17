@@ -1,1 +1,14 @@
+[package]
+name = "sample_contract"
+version = "0.1.0"
+authors = ["Rjay <rjaysolamo@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+solana-program = "1.10.32"  
+spl-token = "3.5.0"         
+
+[lib]
+name = "my_solana_project"
+crate-type = ["cdylib", "lib"]  
 
